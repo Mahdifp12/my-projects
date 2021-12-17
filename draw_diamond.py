@@ -27,3 +27,33 @@ diamond(7)
 
 # for j in range(0, num, 2):
 #     print(num-j)
+
+
+# user_num = int(input("Enter your number: "))
+
+# def setting_number(input_num):
+#     global user_num
+    
+#     while input_num % 2 == 0 or input_num <= 0:
+#         print(f"your input invalid\nplease not enter even number or zero or less it")
+#         user_num = int(input("Enter your number: "))  
+
+#     else:
+#         return input_num
+
+
+# def print_of_stars(numbers_of_stars, numbers_all):
+#     number_of_space = (numbers_all - numbers_of_stars) //2
+#     print(f'{" " * number_of_space}{"*" * numbers_of_stars}{" " * numbers_of_stars}')
+#     # print(f"{}{}{}")
+
+# def draw_diamond(num):
+      
+#     print()
+#     for i in range(num):
+#         if i < num/2:
+#             print_of_stars(i * 2 + 1, num)
+#         else:
+#             print_of_stars((num - i) * 2 - 1, num)
+
+# draw_diamond(setting_number(user_num))
