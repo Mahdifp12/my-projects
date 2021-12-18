@@ -57,3 +57,23 @@ diamond(7)
 #             print_of_stars((num - i) * 2 - 1, num)
 
 # draw_diamond(setting_number(user_num))
+
+
+#? The second method
+
+# def print_stars(number_of_stars, number_total):
+#     number_of_space = (number_total - number_of_stars) // 2
+
+#     print(f'{" " * number_of_space}{"*" * number_of_stars}{" " * number_of_space}')
+
+# def diamond(num):
+#     print()
+#     for i in range(num//2+1):
+#         print_stars(i * 2 + 1, num)
+
+#     for j in range(num):
+#         if j != 7 and j % 2 == 1:
+#             print_stars((num - j) - 1, num)
+    
+
+# diamond(7)
